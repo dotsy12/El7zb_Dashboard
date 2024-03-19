@@ -143,13 +143,13 @@ export default function Sidenav() {
                     <h4 className='dd-text' style={{ opacity: open ? 1 : 0 }}> اضافه عضو</h4>
                   </ListItemButton>
                 </ListItem>
-                <ListItem className='dd' disablePadding sx={{ display: "block" }} onClick={() => { navigate("") }}>
+                <ListItem className='dd' disablePadding sx={{ display: "block" }} onClick={() => { navigate("/ViewRenewal") }}>
                   <ListItemButton>
                     <h4 className='dd-text' style={{ opacity: open ? 1 : 0 }}> 	تجديد عضويه </h4>
                   </ListItemButton>
                 </ListItem>
 
-                <ListItem className='dd' disablePadding sx={{ display: "block" }} onClick={() => { navigate("") }}>
+                <ListItem className='dd' disablePadding sx={{ display: "block" }} onClick={() => { navigate("/ViewCancel") }}>
                   <ListItemButton>
                     <h4 className='dd-text' style={{ opacity: open ? 1 : 0 }}>  ايقاف عضويه</h4>
                   </ListItemButton>
